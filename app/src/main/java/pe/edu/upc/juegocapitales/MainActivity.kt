@@ -33,8 +33,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            JuegoCapitalesTheme() {
-                GeoQuizNavigation()}
+            JuegoCapitalesTheme{
+                GeoQuizNavigation()
+            }
 
         }
     }
