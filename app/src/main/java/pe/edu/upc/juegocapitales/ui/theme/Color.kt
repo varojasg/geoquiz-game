@@ -2,13 +2,33 @@ package pe.edu.upc.juegocapitales.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Brown = Color(0xFF3C2A20)
-val DarkBrown = Color (0xFF1B120D)
+val Primary = Color(0xFF6E5860)
+val OnPrimary = Color(0xFFFFFFFF)
 
-val Beige =Color(0xFFD5CEA4)
-val Cream = Color(0xFFE5E5CB)
+val Secondary = Color(0xFF837378)
+val OnSecondary = Color(0xFFFFFFFF)
 
-val Background = Color(0xFFF7F5EC)
-val Surface = Color(0xFFFFFDF7)
+val SecondaryContainer = Color(0xFFF1E5E7)
+val OnSecondaryContainer = Color(0xFF201A1C)
 
-val White = Color(0xFFFFFFFF)
+val Background = Color(0xFFFFF8F8)
+val OnBackground = Color(0xFF201A1C)
+
+val Surface = Color(0xFFFFFBFF)
+val SurfaceDim = Color(0xFFE2D7D9)
+val SurfaceBright = Color(0xFFFFF8F8)
+
+val SurfaceContainerLowest = Color(0xFFFFFFFF)
+val SurfaceContainerLow = Color(0xFFFDF1F3)
+val SurfaceContainer = Color(0xFFF7EBED)
+val SurfaceContainerHigh = Color(0xFFF1E5E7)
+val SurfaceContainerHighest = Color(0xFFEBE0E2)
+
+val OnSurface = Color(0xFF201A1C)
+val OnSurfaceVariant = Color(0xFF514348)
+
+val Outline = Color(0xFF837378)
+val OutlineVariant = Color(0xFFD5C2C7)
+
+val Error = Color(0xFFBA1A1A)
+val OnError = Color(0xFFFFFFFF)

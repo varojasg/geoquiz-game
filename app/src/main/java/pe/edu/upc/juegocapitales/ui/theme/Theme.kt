@@ -1,30 +1,39 @@
 package pe.edu.upc.juegocapitales.ui.theme
+
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 
+private val LightColorScheme = lightColorScheme(
+    primary = Primary,
+    onPrimary = OnPrimary,
 
-private val DarkColorScheme = darkColorScheme(
-    primary = Beige,
-    onPrimary = DarkBrown,
+    secondary = Secondary,
+    onSecondary = OnSecondary,
 
-    secondary = Cream,
-    tertiary = DarkBrown,
+    secondaryContainer = SecondaryContainer,
+    onSecondaryContainer = OnSecondaryContainer,
 
-    background = DarkBrown,
-    onBackground = Cream,
+    background = Background,
+    onBackground = OnBackground,
 
-    surface = Brown,
-    onSurface = Cream,
+    surface = Surface,
+    onSurface = OnSurface,
+    onSurfaceVariant = OnSurfaceVariant,
 
-    surfaceVariant = Brown,
-    onSurfaceVariant = Beige
+    outline = Outline,
+    outlineVariant = OutlineVariant,
 
+    error = Error,
+    onError = OnError
 )
+
 @Composable
-fun JuegoCapitalesTheme(content: @Composable ()->Unit) {
+fun JuegoCapitalesTheme(
+    content: @Composable () -> Unit
+) {
     MaterialTheme(
-        colorScheme = DarkColorScheme,
+        colorScheme = LightColorScheme,
         typography = Typography,
         content = content
     )
